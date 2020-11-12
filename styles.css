@@ -1,0 +1,12 @@
+body{
+    padding-left: 10px;
+}
+td{
+    padding-right: 50px;
+}
+table{
+    display: none;
+}
+#theSecret{
+    display: none;
+}

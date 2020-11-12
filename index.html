@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script src="code.js"></script>
+<h1>My Schedule</h1>
+<form id="scheduleForm">
+    <input name="dayOfWeek" id="Monday" type="radio" data-day="Monday">
+    <label for="Monday">Monday</label><br>
+
+    <input name="dayOfWeek" id="Tuesday" type="radio" data-day="Tuesday">
+    <label for="Tuesday">Tuesday</label><br>
+
+    <input name="dayOfWeek" id="Wednesday" type="radio" data-day="Wednesday">
+    <label for="Wednesday">Wednesday</label><br>
+
+    <input name="dayOfWeek" id="Thursday" type="radio" data-day="Thursday">
+    <label for="Thursday">Thursday</label><br>
+
+    <input name="dayOfWeek" id="Friday" type="radio" data-day="Friday">
+    <label for="Friday">Friday</label><br>
+
+    <input name="dayOfWeek" id="Saturday" type="radio" data-day="Saturday">
+    <label for="Saturday">Saturday</label><br>
+
+    <input name="dayOfWeek" id="Sunday" type="radio" data-day="Sunday">
+    <label for="Sunday">Sunday</label><br>
+</form>
+<table>
+    <tr>
+        <th>Event</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td id="firstEvent"></td>
+        <td id="firstTime"></td>
+    </tr>
+    <tr>
+        <td id="secondEvent"></td>
+        <td id="secondTime"></td>
+    </tr>
+    <tr>
+        <td id="thirdEvent"></td>
+        <td id="thirdTime"></td>
+    </tr>
+    <tr>
+        <td id="fourthEvent"></td>
+        <td id="fourthTime"></td>
+    </tr>
+</table><br>
+<h5 id="theSecret">I don't have a job, so a lot of my days look similar.</h5>
+</body>
+</html>
